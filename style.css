@@ -18,10 +18,16 @@ header {
 }
 
 #grid_container{
+  display: flex;
+  flex-wrap: wrap;
   background-color: aliceblue;
   margin-top: 25px;
   border: 2px solid cadetblue;
   box-shadow: -5px 5px black;
   border-radius: 5px;
   cursor: pointer;
+}
+
+#grid_container div{
+  border: 1px solid cadetblue;
 }
