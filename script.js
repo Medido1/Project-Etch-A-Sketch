@@ -2,11 +2,15 @@ const grid =  document.getElementById("grid_container");
 grid.style.width = "396px";
 grid.style.height = "396px";
 
-let color = null;
+let color = "";
 
 const grid_btn = document.getElementById("grid_btn");
+const colors = document.getElementById("colors");
+colors.addEventListener("click", (e)=>{
+  color = e.target.id;
+})
 
-grid_btn.addEventListener("click", ()=>{
+function createGrid(){
   clearGrid();
   const size = parseInt(prompt("choose a grid size 1-100"));
   if (size === 666){
@@ -24,7 +28,8 @@ grid_btn.addEventListener("click", ()=>{
   }
   
   buildGrid(size);
-})
+}
+
 
 function buildGrid(size = 8){
   for (let i = 1; i <= size * size; i++){
@@ -38,13 +43,32 @@ function buildGrid(size = 8){
 
 buildGrid();
 
-function colorGrid(color){
+function colorGrid(){
   switch(color){
+    case "black":
+      this.style.backgroundColor = "black";
+      break;
+    case "red":
+      this.style.backgroundColor = "red";
+      break;
+    case "green":
+      this.style.backgroundColor = "green";
+      break;
+    case "blue":
+      this.style.backgroundColor = "blue";
+      break;
+    case "random":
+      this.style.backgroundColor = `hsl(${Math.random() * 255},100%, 50%)`;
+      break;
     default: 
       this.style.backgroundColor = "black";
   }
+  
 }
 
 function clearGrid(){
   grid.innerHTML = "";
 }
+
+grid_btn.addEventListener("click", createGrid);
+

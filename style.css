@@ -63,3 +63,53 @@ header {
   box-shadow: 0 5px 10px black;
   transform: translateY(5px);
 }
+
+#colors{
+  display: flex;
+}
+
+#colors div{
+  margin-top: 20px;
+  border: 2px solid black;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+#colors div:hover{
+  transform: scale(1.1);
+  box-shadow: 0 5px 10px 0 aliceblue;
+}
+
+#colors div:active{
+  transform: translateY(4px);
+}
+
+#black {
+  background-color: black;
+}
+
+#green {
+  background-color: green;
+}
+
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#random {
+  animation: 4s color infinite;
+}
+
+@keyframes color {
+  0% {background:#FF0000 ;}
+  20% {background: #00FF00;}
+  40% {background: #0000FF;}
+  60% {background: #FFFF00;}
+  80% {background: #00FFFF;}
+  100% {background: #FF00FF;}
+}
