@@ -10,6 +10,11 @@ header, main{
   justify-content: center;
 }
 
+main{
+  flex-direction: column;
+  align-items: center;
+}
+
 header {
   background-color: antiquewhite;
   border: 2px solid black;
@@ -30,4 +35,31 @@ header {
 
 #grid_container div{
   border: 1px solid cadetblue;
+}
+
+#grid_btn{
+  margin-top: 20px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: aliceblue;
+}
+
+#grid_btn:hover{
+  background-color: chocolate;
+  color: aliceblue;
+  border: 2px solid aliceblue;
+  box-shadow: 10px 0px 20px 0px aliceblue;
+  transform: scale(1.2);
+}
+
+#grid_btn:active{
+  background-color: aliceblue;
+  color: black;
+  border: 2px solid black;
+  box-shadow: 0 5px 10px black;
+  transform: translateY(5px);
 }
