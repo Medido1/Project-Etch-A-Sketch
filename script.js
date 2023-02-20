@@ -58,7 +58,7 @@ function colorGrid(){
       this.style.backgroundColor = "blue";
       break;
     case "random":
-      this.style.backgroundColor = `hsl(${Math.random() * 255},100%, 50%)`;
+      this.style.backgroundColor = `hsl(${Math.random() * 360},100%, 50%)`;
       break;
     default: 
       this.style.backgroundColor = "black";
