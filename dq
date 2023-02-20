@@ -1,0 +1,47 @@
+[33mcommit c641e2ceb1fa037aff9ac8f73e566fe43b90ca08[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Medido1 <medi1222@gmail.com>
+Date:   Sun Feb 5 22:43:07 2023 +0100
+
+    add informational footer
+
+[33mcommit 4bd76017432ef46eb58b9ec44b40ba162b062485[m
+Author: Medido1 <medi1222@gmail.com>
+Date:   Sun Feb 5 22:40:22 2023 +0100
+
+    add more colors for hover effect
+
+[33mcommit 1ce45100e377f1d0517e4ff9e1ebe9ef924f003f[m
+Author: Medido1 <medi1222@gmail.com>
+Date:   Sun Feb 5 22:09:02 2023 +0100
+
+    create interactive button to choose the grid size
+
+[33mcommit 151a76aa9df121960ff88158542ff51a4cc14844[m
+Author: Medido1 <medi1222@gmail.com>
+Date:   Sun Feb 5 21:52:52 2023 +0100
+
+    add function to color grid in black with hover effect
+
+[33mcommit 535597bc5b0aadfc96071f373e41270a6bcbb55a[m
+Author: Medido1 <medi1222@gmail.com>
+Date:   Sun Feb 5 21:47:57 2023 +0100
+
+    add javascript function to create the grid with apporpriate css
+
+[33mcommit 73c7aea9bc967d6de2b7566bbbbe5824cff28b5f[m
+Author: Medido1 <medi1222@gmail.com>
+Date:   Sun Feb 5 21:39:46 2023 +0100
+
+    create grid container with css
+
+[33mcommit 78cfc4e4dcfb169ca436f54cb3f627b078678582[m
+Author: Medido1 <medi1222@gmail.com>
+Date:   Sun Feb 5 21:32:02 2023 +0100
+
+    set up basic html skeleton and css file with header and background image
+
+[33mcommit c75766930c6961ee27b0ded518026b7fb2a9b983[m
+Author: Medido1 <87072191+Medido1@users.noreply.github.com>
+Date:   Sun Feb 5 21:22:18 2023 +0100
+
+    Initial commit

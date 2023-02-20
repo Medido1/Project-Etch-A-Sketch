@@ -1,6 +1,6 @@
 const grid =  document.getElementById("grid_container");
-grid.style.width = "396px";
-grid.style.height = "396px";
+grid.style.width = "504px";
+grid.style.height = "504px";
 
 let color = "";
 
@@ -31,11 +31,11 @@ function createGrid(){
 }
 
 
-function buildGrid(size = 8){
+function buildGrid(size = 2){
   for (let i = 1; i <= size * size; i++){
     const box = document.createElement("div");
-    box.style.width = (parseInt(grid.style.width) / size - 2) + "px";
-    box.style.height = (parseInt(grid.style.height) / size -2) + "px";
+    box.style.width = ((parseInt(grid.style.width) -4) / size) + "px";
+    box.style.height = ((parseInt(grid.style.height) -4) /size ) + "px";
     grid.appendChild(box);
     box.addEventListener("mouseover", colorGrid);
   }
