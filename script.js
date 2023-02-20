@@ -12,14 +12,14 @@ colors.addEventListener("click", (e)=>{
 
 function createGrid(){
   clearGrid();
-  const size = parseInt(prompt("choose a grid size 1-100"));
+  const size = parseInt(prompt("choose a grid size 1-50"));
   if (size === 666){
     alert(`The devil is not available at the moment
     please try again later`);
     return;
   }
-  if (size > 100 || size < 0){
-    alert("Please choose a size between 1-100!!");
+  if (size > 50 || size < 0){
+    alert("Please choose a size between 1-50!!");
     return;
   }
   else if (isNaN(size)){
