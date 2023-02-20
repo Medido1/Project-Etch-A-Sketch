@@ -31,7 +31,7 @@ function createGrid(){
 }
 
 
-function buildGrid(size = 2){
+function buildGrid(size = 4){
   for (let i = 1; i <= size * size; i++){
     const box = document.createElement("div");
     box.style.width = ((parseInt(grid.style.width) -4) / size) + "px";
